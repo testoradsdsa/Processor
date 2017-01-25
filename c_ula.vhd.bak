@@ -1,0 +1,7 @@
+entity	c_ula	is
+	port	(
+	func	 :	in	std_logic_vector(5	downto	0);
+	opUla :	in	std_logic_vector(1	downto	0);
+	ctrula	 :	out	std_logic_vector(3	downto	0)
+	);
+end	c_ula;
